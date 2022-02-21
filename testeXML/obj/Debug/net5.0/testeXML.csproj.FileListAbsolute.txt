@@ -1,0 +1,16 @@
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\bin\Debug\net5.0\testeXML.exe
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\bin\Debug\net5.0\testeXML.deps.json
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\bin\Debug\net5.0\testeXML.runtimeconfig.json
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\bin\Debug\net5.0\testeXML.runtimeconfig.dev.json
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\bin\Debug\net5.0\testeXML.dll
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\bin\Debug\net5.0\ref\testeXML.dll
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\bin\Debug\net5.0\testeXML.pdb
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.csprojAssemblyReference.cache
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.AssemblyInfoInputs.cache
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.AssemblyInfo.cs
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.csproj.CoreCompileInputs.cache
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.dll
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\ref\testeXML.dll
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.pdb
+C:\Users\INFIS001061\source\repos\testeXML\testeXML\obj\Debug\net5.0\testeXML.genruntimeconfig.cache
