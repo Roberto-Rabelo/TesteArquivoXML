@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OfficeOpenXml;
+using System;
 using System.Data;
 using System.IO;
 using System.Linq;
@@ -11,20 +12,31 @@ namespace testeXML
     {
         static void Main(string[] args)
         {
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             DataSet testeXML = new DataSet();
             XmlDocument document = new XmlDocument();
             //document.Load(@"C:\Users\INFIS001061\OneDrive - INFIS CONSULTORIA LTDA - ME\Documentos\Roberto\XML DA DI.xml");
-            document.Load(@"C:\Users\INFIS001061\OneDrive - INFIS CONSULTORIA LTDA - ME (1)\Documentos\Roberto\XML DA DI - exemplo 3.xml");
-            //document.Load(@"C:\Users\INFIS001061\Documents\Roberto\XML DA DI EXEMPLO 5.xml");
-
-
-            //var xdocResposta = XDocument.Parse(document.OuterXml);
-
-
+            document.Load(@"C:\Users\infis001061\Documents\Roberto\Projetos\TesteArquivoXML\testeXML\XML\2119761450.xml");
+            var package = new ExcelPackage(new FileInfo(@"C:\Users\infis001061\Documents\Roberto\Projetos\TesteArquivoXML\testeXML\Excel\De-Para_Loreal_Modelo.xlsx"));
             testeXML.ReadXml(new XmlTextReader(new StringReader(document.OuterXml)));
-            DataRow row = testeXML.Tables[0].Rows[0];
+
+            ExcelWorksheet sheetInterfreight = package.Workbook.Worksheets[0];
+            DataRow tbDeclacao = testeXML.Tables["declaracaoImportacao"].Rows[0];
+
+            editSheetInterfreight(sheetInterfreight, tbDeclacao);
+             //document.Load(@"C:\Users\INFIS001061\Documents\Roberto\XML DA DI EXEMPLO 5.xml");
+
+
+             //var xdocResposta = XDocument.Parse(document.OuterXml);
+
+
+
+             DataRow row = testeXML.Tables[0].Rows[0];
             DataTable tabelaAdicao = testeXML.Tables["adicao"];
             //DataTable tabelaMercadoria = testeXML.Tables[4];
+
+
+
             var testeDoteste = row["icms"];
             string frase = "Gosto\n muito de\n C#";
             Console.WriteLine(frase);
@@ -54,6 +66,12 @@ namespace testeXML
             var t = td[0].tbMercadoria;
 
             Console.WriteLine("Hello World!");
+        }
+
+        private static void editSheetInterfreight(ExcelWorksheet sheetInterfreight, DataRow tbDeclacao)
+        {
+            
+            throw new NotImplementedException();
         }
     }
 }
