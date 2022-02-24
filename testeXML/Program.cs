@@ -111,7 +111,7 @@ namespace testeXML
                         sheetCusto.Cells["D" + i.ToString()].Value = int.Parse(rowAdicao["dadosMercadoriaCodigoNcm"].ToString());
                         sheetCusto.Cells["E" + i.ToString()].Value = codigoDescricao[0];
                         sheetCusto.Cells["F" + i.ToString()].Value = codigoDescricao[1];
-                        sheetCusto.Cells["G" + i.ToString()].Value = int.Parse(rowMercadoria["quantidade"].ToString()) / 100000;
+                        sheetCusto.Cells["G" + i.ToString()].Value = decimal.Parse(int.Parse(rowMercadoria["quantidade"].ToString()).ToString()) / 100000;
                         sheetCusto.Cells["I" + i.ToString()].Value = decimal.Parse(rowMercadoria["valorUnitario"].ToString()) / 10000000;
                         //sheetCusto.Cells["G" + i.ToString()].Value = int.Parse(rowMercadoria["quantidade"].ToString()) / 100000;
                         i++;
@@ -174,7 +174,7 @@ namespace testeXML
                     sheetInterfreight.Cells["P" + i.ToString()].Value = (decimal.Parse(int.Parse(rowAdicao["iiAliquotaAdValorem"].ToString()).ToString("F2", culture)) / 10000).ToString();
                     sheetInterfreight.Cells["Q" + i.ToString()].Value = (decimal.Parse(int.Parse(rowAdicao["ipiAliquotaAdValorem"].ToString()).ToString("F2", culture)) / 10000).ToString();
                     sheetInterfreight.Cells["R" + i.ToString()].Value = (decimal.Parse(int.Parse(rowAdicao["pisPasepAliquotaAdValorem"].ToString()).ToString("F2", culture)) / 10000).ToString();
-                    sheetInterfreight.Cells["S" + i.ToString()].Value = (decimal.Parse(int.Parse(rowAdicao["pisPasepAliquotaAdValorem"].ToString()).ToString("F2", culture)) / 10000).ToString();
+                    sheetInterfreight.Cells["S" + i.ToString()].Value = (decimal.Parse(int.Parse(rowAdicao["cofinsAliquotaAdValorem"].ToString()).ToString("F2", culture)) / 10000).ToString();
                     sheetInterfreight.Cells["X" + i.ToString()].Value = vlrAduaneiro + (decimal.Parse(int.Parse(rowAdicao["iiAliquotaAdValorem"].ToString()).ToString("F2", culture)) / 10000) * (decimal.Parse(int.Parse(rowAdicao["pisPasepAliquotaAdValorem"].ToString()).ToString("F2", culture)) / 10000);
                     
                 }
@@ -201,7 +201,7 @@ namespace testeXML
                 switch (linha["codigoReceita"])
                 {
                     case "7811":
-                        vlrReceita = int.Parse(linha["valorReceita"].ToString()) / 100;
+                        vlrReceita = decimal.Parse(int.Parse(linha["valorReceita"].ToString()).ToString()) / 100;
                         vlrAduaneiro = ((int.Parse(linha["valorReceita"].ToString()) / 100) / numitem);
                         break;
 
