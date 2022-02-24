@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "al0dSDnqos78od5aiMzS2GOaPTbLiM15aejPGTpeKNUm0q9ELcCRwF0lefkjeVI5GSo5vPSQ4ArkjQrT1voBXw==",
+  "dgSpecHash": "XR7p2tSFNRfhHrV9PTGKMVTSyZ+s6aCaHxhWlFcl3N3ddp/fDaDAHgrporNY0Ntq6yGjFca4rOqC1tnrSBIAQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\infis001061\\Documents\\Roberto\\Projetos\\TesteArquivoXML\\testeXML\\testeXML.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\infis001061\\.nuget\\packages\\epplus\\5.8.6\\epplus.5.8.6.nupkg.sha512",
+    "C:\\Users\\infis001061\\.nuget\\packages\\grpc.core\\2.44.0\\grpc.core.2.44.0.nupkg.sha512",
+    "C:\\Users\\infis001061\\.nuget\\packages\\grpc.core.api\\2.44.0\\grpc.core.api.2.44.0.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
@@ -52,6 +54,7 @@
     "C:\\Users\\infis001061\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\infis001061\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\infis001061\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
