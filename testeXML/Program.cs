@@ -202,7 +202,7 @@ namespace testeXML
                 {
                     case "7811":
                         vlrReceita = decimal.Parse(int.Parse(linha["valorReceita"].ToString()).ToString()) / 100;
-                        vlrAduaneiro = ((int.Parse(linha["valorReceita"].ToString()) / 100) / numitem);
+                        vlrAduaneiro = ((int.Parse(linha["valorReceita"].ToString()) / 100) / numitem); //valor unitario * quantidade 
                         break;
 
                 };
